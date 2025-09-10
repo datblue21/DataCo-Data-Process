@@ -1,0 +1,1 @@
+2025-08-11 09:33:16,754 - ERROR - ❌ Import failed, transaction rolled back: 1364: Field 'warehouse_code' doesn't have a default value

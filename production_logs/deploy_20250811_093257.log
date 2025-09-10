@@ -1,0 +1,18 @@
+2025-08-11 09:32:57,050 - INFO - 🚀 Starting production deployment: 20250811_093257
+2025-08-11 09:32:57,050 - INFO - 🎯 Starting PRODUCTION deployment process...
+2025-08-11 09:32:57,050 - INFO - 🔌 Connecting to production database (attempt 1/5)
+2025-08-11 09:32:57,050 - INFO -    Host: server.aptech.io:3307
+2025-08-11 09:32:57,050 - INFO -    Database: fastroute_test
+2025-08-11 09:32:57,050 - INFO -    User: fastroute_user
+2025-08-11 09:32:57,182 - INFO - ✅ Production database connection successful
+2025-08-11 09:32:57,182 - INFO - 🔍 Verifying production database structure...
+2025-08-11 09:32:57,255 - INFO - ✅ Database structure verification completed
+2025-08-11 09:32:57,255 - INFO - 🔧 Migration already completed manually, skipping...
+2025-08-11 09:32:57,255 - INFO - 🔍 Validating SQL file: dataco_complete_import.sql
+2025-08-11 09:32:57,255 - INFO -    File size: 75.77 MB
+2025-08-11 09:32:58,830 - INFO -    Estimated INSERT statements: 193
+2025-08-11 09:32:58,830 - INFO - ✅ SQL file validation passed
+2025-08-11 09:32:58,831 - INFO - 🧪 Performing dry-run import test...
+2025-08-11 09:32:58,866 - INFO - ✅ Dry-run test passed
+2025-08-11 09:32:58,877 - INFO - ✅ Dry-run completed successfully
+2025-08-11 09:32:58,877 - INFO - 🧹 Database connections closed

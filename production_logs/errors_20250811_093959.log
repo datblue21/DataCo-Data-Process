@@ -1,0 +1,1 @@
+2025-08-11 09:40:07,412 - ERROR - ❌ Import failed, transaction rolled back: 1364: Field 'address' doesn't have a default value

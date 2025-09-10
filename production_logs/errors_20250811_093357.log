@@ -1,0 +1,1 @@
+2025-08-11 09:34:04,509 - ERROR - ❌ Import failed, transaction rolled back: 1048: Column 'status_id' cannot be null

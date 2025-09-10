@@ -1,0 +1,18 @@
+2025-08-11 09:31:49,074 - INFO - 🚀 Starting production deployment: 20250811_093149
+2025-08-11 09:31:49,075 - INFO - 🎯 Starting PRODUCTION deployment process...
+2025-08-11 09:31:49,075 - INFO - 🔌 Connecting to production database (attempt 1/5)
+2025-08-11 09:31:49,075 - INFO -    Host: server.aptech.io:3307
+2025-08-11 09:31:49,075 - INFO -    Database: fastroute_test
+2025-08-11 09:31:49,075 - INFO -    User: fastroute_user
+2025-08-11 09:31:49,301 - INFO - ✅ Production database connection successful
+2025-08-11 09:31:49,301 - INFO - 🔍 Verifying production database structure...
+2025-08-11 09:31:49,322 - WARNING - ⚠️  Table categories missing external_id column - will be added
+2025-08-11 09:31:49,340 - WARNING - ⚠️  Table stores missing external_id column - will be added
+2025-08-11 09:31:49,349 - WARNING - ⚠️  Table products missing external_id column - will be added
+2025-08-11 09:31:49,356 - WARNING - ⚠️  Table users missing external_id column - will be added
+2025-08-11 09:31:49,364 - WARNING - ⚠️  Table orders missing external_id column - will be added
+2025-08-11 09:31:49,371 - WARNING - ⚠️  Table order_items missing external_id column - will be added
+2025-08-11 09:31:49,372 - INFO - ✅ Database structure verification completed
+2025-08-11 09:31:49,372 - INFO - 🔧 Running database migration for external_id columns...
+2025-08-11 09:31:49,372 - ERROR - ❌ Migration script execution failed: Transaction already in progress
+2025-08-11 09:31:49,372 - INFO - 🧹 Database connections closed

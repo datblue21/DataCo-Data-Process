@@ -1,0 +1,53 @@
+﻿STT,Field,Description
+1,Type,Loại giao dịch được thực hiện
+2,Days for shipping (real),Số ngày vận chuyển thực tế của sản phẩm đã mua
+3,Days for shipment (scheduled),Số ngày giao hàng dự kiến của sản phẩm đã mua
+4,Benefit per order,Lợi nhuận thu được trên mỗi đơn hàng
+5,Sales per customer,Tổng doanh số theo từng khách hàng
+6,Delivery Status,"Trạng thái giao hàng: Giao sớm, Giao trễ, Hủy giao hàng, Giao đúng hạn"
+7,Late_delivery_risk,Biến phân loại cho biết giao hàng trễ (1) hoặc không trễ (0)
+8,Category Id,Mã danh mục sản phẩm
+9,Category Name,Tên danh mục sản phẩm
+10,Customer City,Thành phố nơi khách hàng thực hiện mua hàng
+11,Customer Country,Quốc gia nơi khách hàng thực hiện mua hàng
+12,Customer Email,Email của khách hàng
+13,Customer Fname,Tên khách hàng
+14,Customer Id,Mã khách hàng
+15,Customer Lname,Họ khách hàng
+16,Customer Password,Mật khẩu đã được mã hóa của khách hàng
+17,Customer Segment,"Phân khúc khách hàng: Cá nhân, Doanh nghiệp, Văn phòng gia đình"
+18,Customer State,Bang hoặc tỉnh nơi cửa hàng ghi nhận đơn mua
+19,Customer Street,Đường phố nơi cửa hàng ghi nhận đơn mua
+20,Customer Zipcode,Mã bưu điện của khách hàng
+21,Department Id,Mã phòng ban của cửa hàng
+22,Department Name,Tên phòng ban của cửa hàng
+23,Latitude,Vĩ độ của cửa hàng
+24,Longitude,Kinh độ của cửa hàng
+25,Market,"Thị trường giao hàng: Châu Phi, Châu Âu, LATAM, Châu Á - Thái Bình Dương, USCA"
+26,Order City,Thành phố nhận hàng
+27,Order Country,Quốc gia nhận hàng
+28,Order Customer Id,Mã đơn đặt hàng của khách hàng
+29,order date (DateOrders),Ngày đặt hàng
+30,Order Id,Mã đơn hàng
+31,Order Item Cardprod Id,Mã sản phẩm quét qua RFID
+32,Order Item Discount,Giá trị giảm giá cho sản phẩm trong đơn
+33,Order Item Discount Rate,Tỷ lệ giảm giá cho sản phẩm trong đơn
+34,Order Item Id,Mã chi tiết sản phẩm trong đơn hàng
+35,Order Item Product Price,Giá sản phẩm chưa giảm giá
+36,Order Item Profit Ratio,Tỷ suất lợi nhuận của sản phẩm trong đơn
+37,Order Item Quantity,Số lượng sản phẩm trong đơn hàng
+38,Sales,Giá trị doanh số
+39,Order Item Total,Tổng giá trị cho từng sản phẩm trong đơn
+40,Order Profit Per Order,Lợi nhuận theo từng đơn hàng
+41,Order Region,"Khu vực giao hàng: Đông Nam Á, Nam Á, Châu Đại Dương, Đông Á, Tây Á, Tây Mỹ, Trung Mỹ, Tây Phi, Trung Phi, Bắc Phi, Tây Âu, Bắc Âu, Caribbean, Nam Mỹ, Đông Phi, Nam Âu, Đông Mỹ, Canada, Nam Phi, Trung Á, Châu Âu, Trung Mỹ, Đông Âu, Nam Mỹ"
+42,Order State,Bang hoặc tỉnh nơi giao hàng
+43,Order Status,"Trạng thái đơn hàng: Hoàn tất, Đang chờ, Đã đóng, Chờ thanh toán, Hủy, Đang xử lý, Nghi ngờ gian lận, Tạm giữ, Kiểm tra thanh toán"
+44,Product Card Id,Mã sản phẩm
+45,Product Category Id,Mã danh mục sản phẩm
+46,Product Description,Mô tả sản phẩm
+47,Product Image,Liên kết hình ảnh sản phẩm
+48,Product Name,Tên sản phẩm
+49,Product Price,Giá sản phẩm
+50,Product Status,"Trạng thái tồn kho: 1 - Hết hàng, 0 - Còn hàng"
+51,Shipping date (DateOrders),Ngày và giờ giao hàng chính xác
+52,Shipping Mode,"Hình thức vận chuyển: Chuẩn, Hạng nhất, Hạng hai, Giao trong ngày"

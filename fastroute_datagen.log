@@ -1,0 +1,226 @@
+2025-08-18 09:55:00,093 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:55:00,117 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:55:00,201 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:55:00,211 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:55:00,218 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:55:00,225 - __main__ - INFO - 📋 Loaded 4 vehicles IDs
+2025-08-18 09:55:00,239 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:55:00,249 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:55:00,260 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:55:00,271 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:55:00,303 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 09:55:00,304 - __main__ - INFO - 🚛 Generating 100 vehicles...
+2025-08-18 09:55:00,356 - __main__ - ERROR - ❌ Batch execution failed: Failed executing the operation; Python type numpy.int64 cannot be converted
+2025-08-18 09:55:00,398 - __main__ - ERROR - 💥 Data generation failed: Failed executing the operation; Python type numpy.int64 cannot be converted
+2025-08-18 09:55:30,705 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:55:30,730 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:55:30,872 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:55:30,892 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:55:30,903 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:55:30,919 - __main__ - INFO - 📋 Loaded 4 vehicles IDs
+2025-08-18 09:55:30,926 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:55:30,934 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:55:30,940 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:55:30,949 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:55:30,994 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 09:55:30,994 - __main__ - INFO - 🚛 Generating 100 vehicles...
+2025-08-18 09:55:31,073 - __main__ - INFO - ✅ Inserted 100 records
+2025-08-18 09:55:31,101 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 09:55:42,586 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:55:42,605 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:55:42,774 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:55:42,781 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:55:42,787 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:55:42,794 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:55:42,807 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:55:42,814 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:55:42,820 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:55:42,829 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:55:42,866 - __main__ - INFO - 📦 Phase 2: Transactional Data Generation
+2025-08-18 09:55:42,866 - __main__ - INFO - 📦 Generating 5000 orders with vehicle assignments...
+2025-08-18 09:55:43,940 - __main__ - INFO - ✅ Inserted 5000 records
+2025-08-18 09:55:43,971 - __main__ - INFO - 🚚 Generating 5000 deliveries...
+2025-08-18 09:55:44,274 - __main__ - ERROR - ❌ Batch execution failed: 1054 (42S22): Unknown column 'scheduled_delivery_time' in 'field list'
+2025-08-18 09:55:44,313 - __main__ - ERROR - 💥 Data generation failed: 1054 (42S22): Unknown column 'scheduled_delivery_time' in 'field list'
+2025-08-18 09:56:13,296 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:56:13,318 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:56:13,367 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:56:13,375 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:56:13,382 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:56:13,392 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:56:13,399 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:56:13,407 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:56:13,414 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:56:13,421 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:56:13,456 - __main__ - INFO - 📦 Phase 2: Transactional Data Generation
+2025-08-18 09:56:13,456 - __main__ - INFO - 📦 Generating 5000 orders with vehicle assignments...
+2025-08-18 09:56:13,827 - __main__ - ERROR - ❌ Batch execution failed: 1062 (23000): Duplicate entry '1' for key 'orders.external_id'
+2025-08-18 09:56:13,862 - __main__ - ERROR - 💥 Data generation failed: 1062 (23000): Duplicate entry '1' for key 'orders.external_id'
+2025-08-18 09:56:39,860 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:56:39,890 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:56:39,959 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:56:39,965 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:56:39,974 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:56:39,984 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:56:39,994 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:56:40,007 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:56:40,020 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:56:40,028 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:56:40,055 - __main__ - INFO - 📦 Phase 2: Transactional Data Generation
+2025-08-18 09:56:40,055 - __main__ - INFO - 📦 Generating 5000 orders with vehicle assignments...
+2025-08-18 09:56:41,057 - __main__ - INFO - ✅ Inserted 5000 records
+2025-08-18 09:56:41,095 - __main__ - INFO - 🚚 Generating 5000 deliveries...
+2025-08-18 09:56:42,329 - __main__ - INFO - ✅ Inserted 5000 records
+2025-08-18 09:56:42,367 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 09:56:53,279 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:56:53,309 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:56:53,362 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:56:53,368 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:56:53,376 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:56:53,384 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:56:53,391 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:56:53,399 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:56:53,408 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:56:53,428 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:56:53,481 - __main__ - INFO - 📍 Phase 3: Operational Data Generation
+2025-08-18 09:56:53,481 - __main__ - INFO - 📍 Generating 25000 delivery tracking records...
+2025-08-18 09:56:53,649 - __main__ - ERROR - 💥 Data generation failed: unsupported operand type(s) for +: 'NoneType' and 'float'
+2025-08-18 09:57:29,835 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:57:29,904 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:57:29,988 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:57:30,000 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:57:30,011 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:57:30,022 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:57:30,095 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:57:30,103 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:57:30,110 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:57:30,119 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:57:30,147 - __main__ - INFO - 📍 Phase 3: Operational Data Generation
+2025-08-18 09:57:30,147 - __main__ - INFO - 📍 Generating 25000 delivery tracking records...
+2025-08-18 09:57:30,510 - __main__ - ERROR - 💥 Data generation failed: unsupported operand type(s) for +: 'decimal.Decimal' and 'float'
+2025-08-18 09:57:44,333 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:57:44,351 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:57:44,434 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:57:44,442 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:57:44,449 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:57:44,458 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:57:44,471 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:57:44,479 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:57:44,487 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:57:44,494 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:57:44,524 - __main__ - INFO - 📍 Phase 3: Operational Data Generation
+2025-08-18 09:57:44,524 - __main__ - INFO - 📍 Generating 25000 delivery tracking records...
+2025-08-18 09:57:48,372 - __main__ - INFO - ✅ Inserted 27566 records
+2025-08-18 09:57:48,406 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 09:58:06,558 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 09:58:06,587 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 09:58:06,643 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 09:58:06,653 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 09:58:06,661 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 09:58:06,669 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 09:58:06,679 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 09:58:06,687 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 09:58:06,696 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 09:58:06,703 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 09:58:06,741 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 09:58:06,741 - __main__ - INFO - 📦 Phase 2: Transactional Data Generation
+2025-08-18 09:58:06,741 - __main__ - INFO - 📦 Generating 15000 orders with vehicle assignments...
+2025-08-18 09:58:08,823 - __main__ - INFO - ✅ Inserted 15000 records
+2025-08-18 09:58:08,855 - __main__ - INFO - 🚚 Generating 15000 deliveries...
+2025-08-18 09:58:11,040 - __main__ - INFO - ✅ Inserted 15000 records
+2025-08-18 09:58:11,069 - __main__ - INFO - 📍 Phase 3: Operational Data Generation
+2025-08-18 09:58:11,069 - __main__ - INFO - 📍 Generating 75000 delivery tracking records...
+2025-08-18 09:58:20,557 - __main__ - INFO - ✅ Inserted 82700 records
+2025-08-18 09:58:20,599 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 11:10:51,235 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:10:51,272 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 11:10:51,369 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:10:51,377 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 11:10:51,387 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 11:10:51,396 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:10:51,417 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:10:51,427 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:10:51,438 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:10:51,447 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:10:51,491 - __main__ - INFO - 📦 Phase 4: Warehouse Transactions Generation
+2025-08-18 11:10:51,492 - __main__ - INFO - 📦 Generating 30000 warehouse transactions...
+2025-08-18 11:10:51,632 - __main__ - INFO - 📥 Generating initial stock transactions...
+2025-08-18 11:10:51,709 - __main__ - INFO - 📤 Generating order fulfillment transactions...
+2025-08-18 11:10:51,879 - __main__ - INFO - 🔄 Generating transfer transactions...
+2025-08-18 11:10:56,881 - __main__ - INFO - ✅ Inserted 33000 records
+2025-08-18 11:10:56,939 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 11:11:03,437 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:11:03,522 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 11:11:03,841 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:11:03,854 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 11:11:03,872 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 11:11:03,887 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:11:03,896 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:11:03,908 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:11:03,920 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:11:03,934 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:11:03,994 - __main__ - INFO - 📸 Phase 5: Delivery Proofs Generation
+2025-08-18 11:11:03,994 - __main__ - INFO - 📸 Generating 15000 delivery proofs...
+2025-08-18 11:11:04,037 - __main__ - ERROR - 💥 Data generation failed: 1054 (42S22): Unknown column 'd.status_id' in 'where clause'
+2025-08-18 11:11:29,218 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:11:29,484 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 11:11:29,661 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:11:29,704 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 11:11:29,726 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 11:11:29,735 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:11:29,750 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:11:29,768 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:11:29,780 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:11:29,789 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:11:30,094 - __main__ - INFO - 📸 Phase 5: Delivery Proofs Generation
+2025-08-18 11:11:30,095 - __main__ - INFO - 📸 Generating 15000 delivery proofs...
+2025-08-18 11:11:33,150 - __main__ - INFO - ✅ Inserted 15000 records
+2025-08-18 11:11:33,196 - __main__ - INFO - 🎉 Data generation completed successfully!
+2025-08-18 11:11:40,293 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:11:40,317 - __main__ - INFO - 📋 Loaded 8 addresses IDs
+2025-08-18 11:11:40,368 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:11:40,409 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 11:11:40,417 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 11:11:40,426 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:11:40,434 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:11:40,444 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:11:40,450 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:11:40,458 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:11:40,496 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 11:11:40,496 - __main__ - INFO - 🏠 Generating 3000 addresses...
+2025-08-18 11:11:41,811 - __main__ - INFO - ✅ Inserted 3000 records
+2025-08-18 11:11:41,858 - __main__ - INFO - 🏭 Generating 20 warehouses...
+2025-08-18 11:11:41,916 - __main__ - ERROR - ❌ Batch execution failed: 1054 (42S22): Unknown column 'warehouse_type' in 'field list'
+2025-08-18 11:11:41,947 - __main__ - ERROR - 💥 Data generation failed: 1054 (42S22): Unknown column 'warehouse_type' in 'field list'
+2025-08-18 11:12:25,895 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:12:25,965 - __main__ - INFO - 📋 Loaded 3008 addresses IDs
+2025-08-18 11:12:26,008 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:12:26,022 - __main__ - INFO - 📋 Loaded 14 stores IDs
+2025-08-18 11:12:26,032 - __main__ - INFO - 📋 Loaded 2 warehouses IDs
+2025-08-18 11:12:26,046 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:12:26,059 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:12:26,065 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:12:26,072 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:12:26,082 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:12:26,127 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 11:12:26,128 - __main__ - INFO - 🏭 Generating 20 warehouses...
+2025-08-18 11:12:26,267 - __main__ - INFO - ✅ Inserted 20 records
+2025-08-18 11:12:26,315 - __main__ - INFO - 🏪 Generating 150 stores...
+2025-08-18 11:12:26,480 - __main__ - INFO - ✅ Inserted 150 records
+2025-08-18 11:12:26,530 - __main__ - INFO - 🛣️ Generating 50 routes...
+2025-08-18 11:12:26,607 - __main__ - ERROR - ❌ Batch execution failed: 1054 (42S22): Unknown column 'status' in 'field list'
+2025-08-18 11:12:26,651 - __main__ - ERROR - 💥 Data generation failed: 1054 (42S22): Unknown column 'status' in 'field list'
+2025-08-18 11:13:20,079 - __main__ - INFO - 🚀 Starting FastRoute data generation...
+2025-08-18 11:13:20,111 - __main__ - INFO - 📋 Loaded 3008 addresses IDs
+2025-08-18 11:13:20,148 - __main__ - INFO - 📋 Loaded 20665 users IDs
+2025-08-18 11:13:20,154 - __main__ - INFO - 📋 Loaded 164 stores IDs
+2025-08-18 11:13:20,162 - __main__ - INFO - 📋 Loaded 22 warehouses IDs
+2025-08-18 11:13:20,170 - __main__ - INFO - 📋 Loaded 104 vehicles IDs
+2025-08-18 11:13:20,177 - __main__ - INFO - 📋 Loaded 54 categories IDs
+2025-08-18 11:13:20,186 - __main__ - INFO - 📋 Loaded 118 products IDs
+2025-08-18 11:13:20,193 - __main__ - INFO - 📋 Loaded 46 status IDs
+2025-08-18 11:13:20,204 - __main__ - INFO - 📋 Loaded 7 roles IDs
+2025-08-18 11:13:20,236 - __main__ - INFO - 📋 Phase 1: Master Data Generation
+2025-08-18 11:13:20,236 - __main__ - INFO - 🛣️ Generating 50 routes...
+2025-08-18 11:13:20,361 - __main__ - INFO - ✅ Inserted 50 records
+2025-08-18 11:13:20,397 - __main__ - INFO - 🎉 Data generation completed successfully!

@@ -1,0 +1,19 @@
+2025-08-11 09:32:08,741 - INFO - 🚀 Starting production deployment: 20250811_093208
+2025-08-11 09:32:08,741 - INFO - 🎯 Starting PRODUCTION deployment process...
+2025-08-11 09:32:08,741 - INFO - 🔌 Connecting to production database (attempt 1/5)
+2025-08-11 09:32:08,741 - INFO -    Host: server.aptech.io:3307
+2025-08-11 09:32:08,741 - INFO -    Database: fastroute_test
+2025-08-11 09:32:08,741 - INFO -    User: fastroute_user
+2025-08-11 09:32:08,850 - INFO - ✅ Production database connection successful
+2025-08-11 09:32:08,850 - INFO - 🔍 Verifying production database structure...
+2025-08-11 09:32:08,866 - WARNING - ⚠️  Table categories missing external_id column - will be added
+2025-08-11 09:32:08,874 - WARNING - ⚠️  Table stores missing external_id column - will be added
+2025-08-11 09:32:08,881 - WARNING - ⚠️  Table products missing external_id column - will be added
+2025-08-11 09:32:08,891 - WARNING - ⚠️  Table users missing external_id column - will be added
+2025-08-11 09:32:08,900 - WARNING - ⚠️  Table orders missing external_id column - will be added
+2025-08-11 09:32:08,907 - WARNING - ⚠️  Table order_items missing external_id column - will be added
+2025-08-11 09:32:08,907 - INFO - ✅ Database structure verification completed
+2025-08-11 09:32:08,907 - INFO - 🔧 Running database migration for external_id columns...
+2025-08-11 09:32:08,907 - INFO -    Executing: CREATE INDEX idx_stores_external_id ON stores(exte...
+2025-08-11 09:32:08,916 - ERROR - ❌ Migration failed: 1072 (42000): Key column 'external_id' doesn't exist in table
+2025-08-11 09:32:08,916 - INFO - 🧹 Database connections closed
