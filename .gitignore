@@ -1,0 +1,8 @@
+# Ignore large dataset and description files
+DataCoSupplyChainDataset.csv
+DataCoSupplyChainDataset 2.csv
+dataset_fields_description.csv
+dataset_fields_description_vi.csv
+DescriptionDataCoSupplyChain.csv
+/.DS_Store
+/.venv
