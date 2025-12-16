@@ -1,0 +1,103 @@
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                    SO SÁNH 2 PHIÊN BẢN SCRIPT MIGRATION                      ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ 1. migrate_add_sku.py (CÓ category_id)                                      │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  📋 Mô tả: Dành cho bảng products CÓ trường category_id
+  
+  ✅ get_valid_ids():
+     - warehouse_ids ✓
+     - user_ids ✓
+     - category_ids ✓  ← CÓ
+  
+  ✅ random_product_data():
+     - category_id = random.choice(valid_ids['category_ids'])  ← CÓ
+     - name, description, unit_price, weight, volume...
+  
+  ✅ INSERT query (15 trường):
+     INSERT INTO products 
+     (name, description, category_id, ←── CÓ
+      unit_price, weight, volume, 
+      is_fragile, stock_quantity, product_status, warehouse_id,
+      created_at, updated_at, created_by, notes, sku)
+
+
+┌──────────────────────────────────────────────────────────────────────────────┐
+│ 2. migrate_add_sku_Non_categoryid.py (KHÔNG có category_id)                 │
+└──────────────────────────────────────────────────────────────────────────────┘
+
+  📋 Mô tả: Dành cho bảng products KHÔNG có trường category_id
+  
+  ✅ get_valid_ids():
+     - warehouse_ids ✓
+     - user_ids ✓
+     - category_ids ✗  ← KHÔNG CÓ
+  
+  ✅ random_product_data():
+     - category_id ✗  ← KHÔNG CÓ
+     - name, description, unit_price, weight, volume...
+  
+  ✅ INSERT query (14 trường):
+     INSERT INTO products 
+     (name, description, ←── KHÔNG CÓ category_id
+      unit_price, weight, volume, 
+      is_fragile, stock_quantity, product_status, warehouse_id,
+      created_at, updated_at, created_by, notes, sku)
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                            ĐIỂM GIỐNG NHAU                                    ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  ✅ Đọc 61,589 SKU từ BackOrders_sku_only.csv
+  ✅ Kết nối database: fastroute
+  ✅ Thêm cột sku VARCHAR(50)
+  ✅ Update SKU cho 209 sản phẩm hiện có
+  ✅ Insert 61,380 sản phẩm mới với dữ liệu random
+  ✅ Set cột sku là NOT NULL
+  ✅ Set cột sku là UNIQUE
+  ✅ Tuân thủ foreign keys: warehouses, users
+  ✅ Commit theo batch (1000 sản phẩm/lần)
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                         CÁCH CHỌN PHIÊN BẢN                                   ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  🔍 Bước 1: Kiểm tra cấu trúc bảng
+     mysql> DESCRIBE products;
+     
+     Tìm xem có trường "category_id" không?
+
+  ✅ Có category_id?
+     → Dùng: migrate_add_sku.py
+  
+  ❌ Không có category_id?
+     → Dùng: migrate_add_sku_Non_categoryid.py
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                          CÁCH CHẠY SCRIPT                                     ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Phiên bản CÓ category_id:
+  $ cd /Users/mac/Downloads/abcd/migrate_database
+  $ python3 migrate_add_sku.py
+
+  Phiên bản KHÔNG có category_id:
+  $ cd /Users/mac/Downloads/abcd/migrate_database
+  $ python3 migrate_add_sku_Non_categoryid.py
+
+
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                              KẾT QUẢ                                          ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+
+  Cả 2 phiên bản đều tạo ra:
+  ✓ 61,589 sản phẩm với SKU duy nhất
+  ✓ Cột sku VARCHAR(50) NOT NULL UNIQUE
+  ✓ Tất cả SKU từ file CSV đều có trong database
+
